@@ -15,6 +15,17 @@ The formulation of interpretable rules from vast computational datasets remains 
 
 By deriving a set of dimensionless groups ($\Pi$) to characterize arithmetic intensity and memory load, this repository demonstrates that complex, high-variance inference latency data collapses onto a single universal curve. Furthermore, this framework is applied to the fine-structure constant ($\alpha$), providing a dimensional argument for its behavior as a dynamic, state-dependent variable.
 
+## Repository Structure
+
+```text
+project-root/
+├─ llm_dimensional_analysis.py   # Main benchmark + plotting script
+├─ llm_inference_results.csv     # Generated measurements
+├─ results_figure.png            # Main 3-panel figure (latency, throughput, collapse)
+├─ pi1_analysis.png              # Additional arithmetic intensity figure
+├─ paper/                        # (Optional) LaTeX/Word files for the report
+└─ README.md                     # This file
+
 ## 🔑 Key Features
 
 - **Dimensional Scaling Laws:** Derivation of dimensionless groups $\Pi_1$ (Intensity Ratio) and $\Pi_2$ (Dimensionless Load) to predict Transformer performance.
