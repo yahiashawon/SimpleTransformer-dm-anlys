@@ -85,3 +85,10 @@ We demonstrate that the behavior of the fine-structure constant $\alpha$ under r
    conda install pytorch torchvision torchaudio cpuonly -c pytorch -y
    conda install pandas matplotlib numpy -y
    ```
+### 4. Run the Benchmark
+   From the project root:
+   
+   ```bash
+   conda activate dim_analysis
+   python llm_dimensional_analysis.py
+   ```
